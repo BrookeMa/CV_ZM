@@ -1,0 +1,55 @@
+{
+  "name": "ZM_BaseLib",
+  "version": "0.0.2",
+  "summary": "展盟iOS基础组件库.",
+  "description": "展盟iOS基础组件库.",
+  "homepage": "http://code.zm.shzhanmeng.com/ZM_iOSTeam/ZM_BaseLib.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Chin": "qinhui@shzhanmeng.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "http://code.zm.shzhanmeng.com/ZM_iOSTeam/ZM_BaseLib.git",
+    "tag": "0.0.2"
+  },
+  "source_files": "ZM_BaseLib/**/*.{h,m,mm}",
+  "resources": "Resources/*.png",
+  "ios": {
+    "frameworks": [
+      "Foundation",
+      "UIKit",
+      "MapKit",
+      "CoreLocation"
+    ]
+  },
+  "requires_arc": true,
+  "dependencies": {
+    "Masonry": [
+      "1.1.0"
+    ],
+    "WebViewJavascriptBridge": [
+      "6.0.3"
+    ],
+    "RTRootNavigationController": [
+      "0.6.7"
+    ],
+    "ReactiveCocoa": [
+      "<= 2.5"
+    ],
+    "JLRoutes": [
+      "2.1"
+    ],
+    "lottie-ios": [
+      "2.5.0"
+    ],
+    "IQKeyboardManager": [
+
+    ]
+  }
+}

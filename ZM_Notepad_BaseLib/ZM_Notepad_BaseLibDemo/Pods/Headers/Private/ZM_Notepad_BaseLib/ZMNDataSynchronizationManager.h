@@ -1,0 +1,1 @@
+../../../../../ZM_Notepad_BaseLib/Tools/ZMNDataSynchronizationManager.h

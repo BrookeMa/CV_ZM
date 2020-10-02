@@ -1,0 +1,11 @@
+CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/ZM_BaseLib
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/ZM_BaseLib" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/IQKeyboardManager" "${PODS_ROOT}/Headers/Public/JLRoutes" "${PODS_ROOT}/Headers/Public/Masonry" "${PODS_ROOT}/Headers/Public/RTRootNavigationController" "${PODS_ROOT}/Headers/Public/ReactiveCocoa" "${PODS_ROOT}/Headers/Public/WebViewJavascriptBridge" "${PODS_ROOT}/Headers/Public/ZM_BaseLib" "${PODS_ROOT}/Headers/Public/lottie-ios"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/IQKeyboardManager" "${PODS_CONFIGURATION_BUILD_DIR}/JLRoutes" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry" "${PODS_CONFIGURATION_BUILD_DIR}/RTRootNavigationController" "${PODS_CONFIGURATION_BUILD_DIR}/ReactiveCocoa" "${PODS_CONFIGURATION_BUILD_DIR}/WebViewJavascriptBridge" "${PODS_CONFIGURATION_BUILD_DIR}/lottie-ios"
+OTHER_LDFLAGS = -framework "CoreLocation" -framework "Foundation" -framework "MapKit" -framework "UIKit"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}
+PODS_TARGET_SRCROOT = ${PODS_ROOT}/../..
+PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
+SKIP_INSTALL = YES

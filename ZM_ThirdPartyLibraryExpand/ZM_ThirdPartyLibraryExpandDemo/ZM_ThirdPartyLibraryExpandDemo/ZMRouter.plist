@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ReleaseURL</key>
+	<dict>
+		<key>ZM_Test1VC</key>
+		<dict>
+			<key>describe</key>
+			<string>测试页面1</string>
+			<key>url</key>
+			<string>zmtpled://vc1/:controller1</string>
+			<key>className</key>
+			<string>T1ViewController</string>
+		</dict>
+		<key>ZM_Test2VC</key>
+		<dict>
+			<key>describe</key>
+			<string>测试页面2</string>
+			<key>url</key>
+			<string>zmtpled://vc3/:controller2</string>
+			<key>className</key>
+			<string>T2ViewController</string>
+		</dict>
+		<key>ZM_Test3VC</key>
+		<dict>
+			<key>describe</key>
+			<string>测试页面3</string>
+			<key>url</key>
+			<string>xclapp://vc2/:controller3</string>
+			<key>className</key>
+			<string>T3ViewController</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

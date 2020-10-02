@@ -1,0 +1,14 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+source 'https://github.com/CocoaPods/Specs.git'
+source ‘http://code.zm.shzhanmeng.com/ZM_iOSTeam/ZM_privatepods.git’
+
+
+target 'ZM_Notepad_BaseLibDemo' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+	
+    pod ‘ZM_Notepad_BaseLib’, :path=>’../ZM_Notepad_BaseLib.podspec'
+  # Pods for ZM_Notepad_BaseLibDemo
+
+end

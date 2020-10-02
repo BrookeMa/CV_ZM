@@ -1,0 +1,32 @@
+PODS:
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - FMDBMigrationManager (1.4.1):
+    - FMDBMigrationManager/System (= 1.4.1)
+  - FMDBMigrationManager/System (1.4.1):
+    - FMDB/standard (>= 2.3)
+  - ZM_DataBase (0.0.2):
+    - FMDB (~> 2.7.2)
+    - FMDBMigrationManager (~> 1.4.1)
+
+DEPENDENCIES:
+  - ZM_DataBase (from `../ZM_DataBase.podspec`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FMDB
+    - FMDBMigrationManager
+
+EXTERNAL SOURCES:
+  ZM_DataBase:
+    :path: "../ZM_DataBase.podspec"
+
+SPEC CHECKSUMS:
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  FMDBMigrationManager: d52007f328ea0665e8985ca8a33500707aef084f
+  ZM_DataBase: b98dfc686b451126f96ee5d238233977d370b9a4
+
+PODFILE CHECKSUM: 53b9bd4b9ef0ca9b561cbbfdc5240536d6b19f05
+
+COCOAPODS: 1.6.1

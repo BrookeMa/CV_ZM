@@ -1,0 +1,30 @@
+{
+  "name": "ZM_Networking",
+  "version": "0.0.2",
+  "summary": "对NSURLSession封装.",
+  "description": "对NSURLSession封装.",
+  "homepage": "http://code.zm.shzhanmeng.com/ZM_iOSTeam/ZM_Networking.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Chin": "qinhui@shzhanmeng.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "http://code.zm.shzhanmeng.com/ZM_iOSTeam/ZM_Networking.git",
+    "tag": "0.0.2"
+  },
+  "source_files": "ZM_Networking/**/*.{h,m,mm}",
+  "dependencies": {
+    "MJExtension": [
+      "~> 3.0.15.1"
+    ],
+    "AFNetworking": [
+      "~> 3.0"
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+PODS:
+  - IQKeyboardManager (6.1.1)
+  - JLRoutes (2.1)
+  - lottie-ios (2.5.0)
+  - Masonry (1.1.0)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - RTRootNavigationController (0.6.7):
+    - RTRootNavigationController/Core (= 0.6.7)
+  - RTRootNavigationController/Core (0.6.7)
+  - WebViewJavascriptBridge (6.0.3)
+  - ZM_BaseLib (0.0.2):
+    - IQKeyboardManager
+    - JLRoutes (= 2.1)
+    - lottie-ios (= 2.5.0)
+    - Masonry (= 1.1.0)
+    - ReactiveCocoa (<= 2.5)
+    - RTRootNavigationController (= 0.6.7)
+    - WebViewJavascriptBridge (= 6.0.3)
+
+DEPENDENCIES:
+  - ZM_BaseLib (from `../ZM_BaseLib.podspec`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - IQKeyboardManager
+    - JLRoutes
+    - lottie-ios
+    - Masonry
+    - ReactiveCocoa
+    - RTRootNavigationController
+    - WebViewJavascriptBridge
+
+EXTERNAL SOURCES:
+  ZM_BaseLib:
+    :path: "../ZM_BaseLib.podspec"
+
+SPEC CHECKSUMS:
+  IQKeyboardManager: 79c57795f5c2408d259d37b9da2ed07efcbb5225
+  JLRoutes: d755245322b94227662ea3e43492fdca94e05c5b
+  lottie-ios: d699fdee68d7b63e721d949388b015fef1aaa4ac
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  RTRootNavigationController: d6aa6cbb78a3eaecea4f6e4df63f15dd887836b8
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
+  ZM_BaseLib: ef956e5cb67ef508e8eca65db1dfa17471e98485
+
+PODFILE CHECKSUM: d26a7dcac608f319b8c4fe6b77035e45ce2b9f66
+
+COCOAPODS: 1.5.2
